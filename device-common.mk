@@ -66,3 +66,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Trigger fsck on upgrade (305658663)
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.preventative_fsck = 1
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    packages/modules/Bluetooth/android/app
