@@ -23,3 +23,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FaceEnrollOverlay \
     FaceEnrollSettingsOverlay
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    packages/modules/Bluetooth/android/app
