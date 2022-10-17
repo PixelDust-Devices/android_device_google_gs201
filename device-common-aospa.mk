@@ -23,6 +23,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
+# Properties
+TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     packages/modules/Bluetooth/android/app
