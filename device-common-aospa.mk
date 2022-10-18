@@ -22,6 +22,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
+# ConnectivityThermalPowermanager
+include hardware/google/pixel/connectivity_thermal_power_manager/connectivity_thermal_power_manager.mk
+
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
@@ -35,3 +38,7 @@ TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     packages/modules/Bluetooth/android/app
+
+# Telephony
+PRODUCT_PACKAGES += \
+    TelephonyOverlay
