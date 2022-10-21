@@ -32,6 +32,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
+# Manifests
+DEVICE_MANIFEST_FILE += \
+    device/google/gs201/android.hardware.security.rkp-service.citadel.xml \
+    device/google/gs201/manifest_radio_ds.xml
+
 # Properties
 TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
 
