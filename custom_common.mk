@@ -18,3 +18,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
+
+# Face Unlock
+PRODUCT_PACKAGES += \
+    FaceEnrollOverlay \
+    FaceEnrollSettingsOverlay
