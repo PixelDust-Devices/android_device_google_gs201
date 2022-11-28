@@ -52,4 +52,11 @@
     <string name="config_systemTextIntelligence">com.google.android.as</string>
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
+
+    <!-- The properties of a UDFPS sensor in pixels -->
+    <integer-array name="config_udfps_sensor_props">
+      <item>720</item>  <!-- sensorLocationX -->
+      <item>2364</item> <!-- sensorLocationY -->
+      <item>142</item>  <!-- sensorRadius -->
+    </integer-array> 
 </resources>
