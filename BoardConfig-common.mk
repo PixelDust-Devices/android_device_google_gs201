@@ -418,6 +418,9 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 # Allow building duplicate targets
 BUILD_BROKEN_DUP_RULES := true
 
+# Allow duplicate sysprop assignments
+BUILD_BROKEN_DUP_SYSPROP := true
+
 include device/google/gs201-sepolicy/gs201-sepolicy.mk
 
 # Battery options
