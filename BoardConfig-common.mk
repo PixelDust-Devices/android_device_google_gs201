@@ -401,6 +401,9 @@ BOARD_VENDOR_KERNEL_MODULES := $(KERNEL_MODULES)
 # Using BUILD_COPY_HEADERS
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
+# Allow duplicate sysprop assignments
+BUILD_BROKEN_DUP_SYSPROP := true
+
 include device/google/gs201-sepolicy/gs201-sepolicy.mk
 
 # Battery options
