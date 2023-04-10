@@ -59,4 +59,7 @@
       <item>2364</item> <!-- sensorLocationY -->
       <item>142</item>  <!-- sensorRadius -->
     </integer-array> 
+
+    <!-- IWLAN-->
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
 </resources>
